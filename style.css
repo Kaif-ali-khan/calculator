@@ -48,22 +48,22 @@ body {
     margin: 1em;
 }
 
-button {
-    width: 20%; 
-    height: 60px; 
-    font-size: 1.2rem; 
+.button {
+    width: 20%;
+    height: 60px;
+    font-size: 1.2rem;
     font-weight: bold;
-    background-color: #e0e0e0; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  button:hover {
+}
+
+.button:hover {
     background-color: #d3d3d3;
-  }
-  
+}
+
 
 .flex-boxes :nth-child(4) {
     background-color: tomato;
