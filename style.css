@@ -27,15 +27,9 @@ body {
     background-color: #fff;
 }
 
-#screen[type=number]::-webkit-inner-spin-button,
-#screen[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0;
-}
 
-#screen[type="number"] {
+
+#screen[type="text"] {
     font-size: 2em;
     text-align: right;
     color: #000;
@@ -50,7 +44,7 @@ body {
 
 .button {
     width: 20%;
-    height: 50px;
+    height: 40px;
     font-size: 1.2rem;
     font-weight: bold;
     background-color: #e0e0e0;
